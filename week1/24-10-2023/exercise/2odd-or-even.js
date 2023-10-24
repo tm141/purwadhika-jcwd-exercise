@@ -10,8 +10,7 @@ function ooe(angka){
 function mainClass(angka){
     let output = (typeof(angka)!="number")? "error - wrong data type" : ooe(angka);
     const batas = "-----------------------------------------";
-    console.log(`${batas}\n2-Odd or Even\n${batas}\ninput: \n${angka}\n${batas}\noutput: ${output}\n${batas}\n`);
-    
+    console.log(`${batas}\n2-Odd or Even\n${batas}\ninput: ${angka}\n${batas}\noutput: ${output}\n${batas}`);
 }
 
 angka1 = 25;
