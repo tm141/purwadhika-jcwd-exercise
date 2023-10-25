@@ -4,7 +4,7 @@
 //cek jika n kurang dari 0 maka return error input
 //deklarasi dan assign now = 2, last = 1
 //lakukan looping dari i=3 hingga n
-//lakukan iterasi: save now ke nowTemp, tambahkan temp dengan last, assign last dengan nowTemp
+//lakukan iterasi: save now ke nowTemp, tambahkan now dengan last, assign last dengan nowTemp
 //keluar loop, return output
 
 function nfn(n){

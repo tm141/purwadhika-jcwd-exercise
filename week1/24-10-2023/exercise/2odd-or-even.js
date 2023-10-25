@@ -13,12 +13,12 @@ function mainClass(angka){
     console.log(`${batas}\n2-Odd or Even\n${batas}\ninput: ${angka}\n${batas}\noutput: ${output}\n${batas}`);
 }
 
-angka1 = 25;
-angka2 = 2;
-angka3 = -77;
-angka4 = 23156;
-angka5 = "asdfqwe";
-angka6 = 0;
+let angka1 = 25;
+let angka2 = 2;
+let angka3 = -77;
+let angka4 = 23156;
+let angka5 = "asdfqwe";
+let angka6 = 0;
 
 console.log(`\n\n\ntest 1: `);
 mainClass(angka1);
