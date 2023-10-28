@@ -4,12 +4,13 @@
 
 import { printOut,test } from "./util.js";
 
-function filterEven(n){
-    return n.filter(isEven);
+function filterOdd(n){
+    return n.filter(isOdd);
 }
 
-function isEven(n){
-    return Math.abs(n%2)==0;
+
+function isOdd(n){
+    return Math.abs(n%2)==1;
 }
 
 function isNumArr(n){
@@ -29,12 +30,12 @@ function mainClass(n){
     }else if(!isNumArr(n)){
         output = "error - all array element need to be number type";
     }else{
-        output = filterEven(n);
+        output = filterOdd(n);
     }
 
-    printOut("4-Filter Even", n, output);
+    printOut("1-Filter Odd", n, output);
 }
 
-let testCase = [[[-5,-4,-1,0,6],"-4,0,6"],[[1,2,3,4,5,6,7,8,9,10], "2,4,6,8,10"],["asdf", "error - wrong data type"], [[1,"asdf",3,"4",5,6,7], "error - all array element need to be number type"]];
+let testCase = [[[432143,5346,-12341,0,546],"432143,-12341"],[[1,2,3,4,5,6,7,8,9,10], "1,3,5,7,9"],["asdf", "error - wrong data type"], [[1,"asdf",3,"4",5,6,7], "error - all array element need to be number type"]];
 
 test(testCase, mainClass);

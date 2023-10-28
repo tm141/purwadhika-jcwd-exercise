@@ -1,0 +1,9 @@
+exercise 1 no 1 find lowest, highest, average from an array ->  contoh salah, input arr= [12,5,23,18,4,45,32] output = {lowest:4, highest:32, average: 19.8xxx}
+seharusnya output highest adalah 45, karena angka tertinggi di input arr adalah 45.
+
+exercise 2 no 1 filter sebuah array dan menampilkan hanya yang genap-> di soalnya tertulis kembalikan hanya yang genap, tetapi di contoh malah menampilkan yang ganjil saja.
+
+exercise 2 no 5 kembalikan perbedaan dari 2 array -> contoh salah
+di dalam contoh tertulis input 1 = [1,2,3,4,5] dan input 2 = [3,4,5,6,7] output =[1,2]
+seharusnya output = [1,2,6,7]. karena elemen 6 dan 7 tidak ada di input 1.
+

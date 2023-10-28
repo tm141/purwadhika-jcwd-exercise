@@ -3,6 +3,11 @@ function printOut(judul, input, output){
     console.log(`${batas}\n${judul}\n${batas}\ninput: ${JSON.stringify(input)}\n${batas}\noutput: ${JSON.stringify(output)}\n${batas}`);
 }
 
+function printOutTwoInput(judul, input1, input2, output){
+    const batas = "-----------------------------------------";
+    console.log(`${batas}\n${judul}\n${batas}\ninput: ${JSON.stringify(input1)}, ${JSON.stringify(input2)}\n${batas}\noutput: ${JSON.stringify(output)}\n${batas}`);
+}
+
 function test(test, mainClass){
     for(let i=1;i<test.length+1;i++){
         console.log(`\n\n\nTest ${i}: `);
@@ -18,6 +23,7 @@ function testTwoInput(test, mainClass){
         console.log(`expected: \n${test[i-1][1]}`);
     }
 }
+
 
 function isWordArray(n){
     let output = true;
@@ -36,4 +42,4 @@ function isArrOfNum(n){
     return output;
 }
 
-export {printOut, test, testTwoInput, isWordArray, isArrOfNum};
+export {printOut, test, testTwoInput, isWordArray, isArrOfNum, printOutTwoInput};
