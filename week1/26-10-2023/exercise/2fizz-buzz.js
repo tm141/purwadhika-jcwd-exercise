@@ -23,7 +23,7 @@ function fizzBuzz(n){
         }else{
             outputString+=`${i}`
         }
-        (i==n)? outputString+=" ":outputString+=", ";
+        (i==n)? outputString+="":outputString+=", ";
     }
     return outputString;
 }
@@ -40,6 +40,6 @@ function mainClass(n){
     printOut("2-Fizz Buzz",n,output);
 }
 
-let testCase = [[6, "1, 2, Fizz, 4, Buzz, Fizz"], [15, "1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz"], ["asdf", "error - wrong data type"], [0, "error - input must be 1 or higher", [-6, "error - input must be 1 or higher"]]]
+let testCase = [[6, "1, 2, Fizz, 4, Buzz, Fizz"], [15, "1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz"],[30, "1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz"], ["asdf", "error - wrong data type"], [0, "error - input must be 1 or higher"], [-6, "error - input must be 1 or higher"]];
 
 test(testCase, mainClass);
