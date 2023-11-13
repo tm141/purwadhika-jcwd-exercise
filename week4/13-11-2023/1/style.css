@@ -1,0 +1,50 @@
+body,html {
+    margin: 0;
+    height: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+body .hero{
+    margin-top:0rem;
+    height:50%;
+    background-image:url(./img/tim-marshall-Y8Cs1hhBoXA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+body .container{
+    text-align: center;
+}
+
+body h1{
+    margin-top: 1rem;
+    font-size:5vw;
+}
+
+body p{
+    margin-top: -3rem;
+    font-size:2vw;
+}
+
+body button{
+    color: white;
+    background-color: #4169e2;
+    height:77px;
+    width: 200px;
+    font-size: 2em;
+    border-color: black;
+    border-style:double;
+    border-width: 8px;
+    border-radius: 10px;
+}
+
+body button:hover{
+    background-color: #4169e2f1;
+}

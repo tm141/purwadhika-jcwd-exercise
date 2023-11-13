@@ -1,0 +1,26 @@
+body,html {
+    margin: 0;
+    height: 100%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+table{
+    border-collapse: collapse;
+    width:100%;
+    background-color: #ffa600;
+}
+
+table, th, td{
+    border: 1px solid;
+    text-align: center;
+}
+
+table td img{
+    margin: 10px 0;
+}
