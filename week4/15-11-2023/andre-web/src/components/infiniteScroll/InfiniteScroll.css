@@ -1,0 +1,72 @@
+/* Belajar dari https://www.youtube.com/watch?v=iLmBy-HKIAw&t=1727s */
+.infiniteScrollScroller {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    overflow: hidden;
+    -webkit-mask: linear-gradient(
+      90deg,
+      transparent,
+      white 20%,
+      white 80%,
+      transparent
+    );
+    mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  }
+  
+  .infiniteScrollScroller__inner {
+    padding-block: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .infiniteScrollScroller .infiniteScrollScroller__inner {
+    width: max-content;
+    flex-wrap: nowrap;
+    animation: infiniteScrollScroll var(--_animation-duration, 40s)
+      var(--_animation-direction, forwards) linear infinite;
+  }
+
+  
+  @keyframes infiniteScrollScroll {
+    to {
+      transform: translate(calc(-50% - 0.5rem));
+    }
+  }
+  
+  .infiniteScrollContainer{
+    display: block;
+    /* display: grid; */
+    text-align: center;
+    /* border: 1px solid black; */
+    max-width: 50vw;
+  }
+  
+  .infiniteScrollCenter {
+    display:contents;
+    min-block-size: 100vh;
+    /* text-align: center; */
+    /* font-family: system-ui; */
+    font-size: 1.125rem;
+    /* background-color: black; */
+  }
+  
+  .infiniteScrollTag-list {
+    margin: 0;
+    padding-inline: 0;
+    list-style: none;
+  }
+  
+  .infiniteScrollTag-list li {
+    padding: 1rem;
+    background: var(--color5);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem -0.25rem black;
+  }
+
+  .infiniteScrollJudul{
+    font-size: 2.6em;
+  }
+  
+  
