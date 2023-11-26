@@ -16,13 +16,13 @@
 }
 
 .container {
-    height: 370px;
+    height: fit-content;
     background-color: var(--color-primary);
     font-family: Oswald, sans-serif !important;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 3vw;
-    padding: 0 var(--margin);
+    padding: 25px var(--margin);
 }
 
 .container div {
