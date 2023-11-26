@@ -1,0 +1,89 @@
+.menu {
+    display: inline-block;
+    cursor: pointer;
+    margin-right:0px;
+    margin-left:auto;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change.bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+.change.bar2 {
+    opacity: 0;
+}
+
+.change.bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
+
+.navbarWrap {
+    height: 65px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vh var(--margin);
+}
+
+.monkImg{
+    margin-top: 0.2vh;
+    height:40px;
+}
+
+.nav {
+    background-color:white;
+}
+
+.menuWrap{
+    display:flex;
+    flex-direction: column;
+}
+
+.sideBar{
+    margin-top: 26px;
+    float:right;
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.7);
+    min-height: 100vh;
+    width:max-content;
+    padding: 5px 10px;
+    transition: 0.4s;
+    z-index:1;
+    overflow-x: hidden;
+}
+
+.sideBar a {
+    text-decoration: none;
+    color:white;
+    margin: 5px 0;
+}
+
+.sideBar a:hover {
+    color:rgb(var(--color-primary-rgb, 0.7));
+    /* color:rgb(145, 145, 145); */
+    text-shadow:1px 1px 1px black;
+}
+
+.sideBar.menuOpen{
+    transform: translateX(0);
+    opacity: 1;
+}
+.sideBar.menuClose{
+    transform: translateX(5vw);
+    opacity:0;
+}
+
+

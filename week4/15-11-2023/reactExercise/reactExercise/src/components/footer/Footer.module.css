@@ -1,0 +1,63 @@
+.input1, .input2, .input3 {
+    background-image: none;
+    background-clip: padding-box;
+    border: none;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    height: auto;
+    border-radius: 0;
+    color: #111111;
+    background-color: #ffffff;
+
+    padding: 10px 12px;
+}
+
+.emailForm form>* {
+    margin: 5px 0;
+}
+
+.container {
+    height: 370px;
+    background-color: var(--color-primary);
+    font-family: Oswald, sans-serif !important;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3vw;
+    padding: 0 var(--margin);
+}
+
+.container div {
+    place-self: center;
+}
+
+.getInTouch {
+    font-weight: bolder;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.secondHeader {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 1.7em;
+    margin-bottom: 2em;
+}
+
+.caution {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact li {
+    list-style: none;
+}
+
+.list1 {
+    font-weight: 550;
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.heading {
+    font-weight: bolder;
+    font-family: Oswald, sans-serif !important;
+    padding: 10px 0;
+}
