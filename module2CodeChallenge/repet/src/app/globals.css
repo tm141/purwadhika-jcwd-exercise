@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+:root{
+	--px: 20rem;
+	--color-primary: #546EFF;
+	--color-primary-2: #758AFE;
+	--color-secondary: #F6E16F;
+	--color-primary-rgb: 84,110,255;
+	--color-secondary-rgb: 246,225,111;
+	--color-third: #C7D0FC;
+	--color-fourth: #CCFBF1;
+	--color-fourth-rgb: 204,251,241: 
+}
